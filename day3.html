@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;  
+        }
+        header::before{
+            background: url('https://source.unsplash.com/user/wsanter')no-repeat center center/cover;
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        section{
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 344px;
+            justify-content: center;  
+        }
+        .navigation{
+            display: flex;
+            font-size: 23px;
+        }
+        li{
+            list-style: none;
+            padding: 20px 23px;
+            color: white;
+        }
+        /* section::before{
+            content: "this is a content"; }*/
+        
+        h1{
+            font-size: 4rem;
+            color: rgba(0, 89, 255, 0.756);
+        }
+        h2{
+            font-size: 2rem;
+            margin: -10px;
+            font-style: oblique;
+            color: palevioletred;
+            text-align: center;
+            
+        }
+        p{
+            text-align: center;
+            font-size: 23px;
+            font-style :initial;
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>       
+</body>
+</html>
